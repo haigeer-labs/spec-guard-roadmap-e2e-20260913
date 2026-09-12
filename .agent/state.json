@@ -1,0 +1,16 @@
+{
+  "tracker": "github",
+  "issueTypes": true,
+  "activeModule": "current-work",
+  "updatedAt": "2026-09-13T00:00:00Z",
+  "initiative": {
+    "title": "Roadmap real-environment acceptance",
+    "issue": 1,
+    "map": "spec/CAPABILITY-MAP.md"
+  },
+  "modules": {
+    "current-work": {
+      "issue": 1
+    }
+  }
+}
