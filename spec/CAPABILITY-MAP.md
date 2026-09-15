@@ -1,16 +1,14 @@
-# Capability Map: Roadmap real-environment acceptance
+# Capability Map: Proposal v0.15 GitHub E2E fixture
 
 ## 目标
 
-Verify that the released `spec-guard` roadmap reports an active module's
-route and its real GitHub tracker state without writing to the repository.
+Verify that Proposal review and promotion consume only remote-default-branch
+facts and a read-only GitHub Proposal Issue.
 
 ## 模块
 
 | Module id | Responsibility | Depends on |
 |---|---|---|
-| foundation | Establish the test fixture | — |
-| current-work | Render the current roadmap | foundation |
-| follow-up | Consume the rendered route | current-work |
+| foundation | Establish the v0.15 Proposal fixture baseline | — |
 
-Build order: foundation → current-work → follow-up
+Build order: foundation
