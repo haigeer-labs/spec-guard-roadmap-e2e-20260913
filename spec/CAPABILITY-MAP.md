@@ -10,5 +10,6 @@ facts and a read-only GitHub Proposal Issue.
 | Module id | Responsibility | Depends on |
 |---|---|---|
 | foundation | Establish the v0.15 Proposal fixture baseline | — |
+| alpha | Prove the reviewed module can be promoted from remote main | foundation |
 
-Build order: foundation
+Build order: foundation → alpha
